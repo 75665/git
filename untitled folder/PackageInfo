@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pkg-info overwrite-permissions="true" relocatable="false" identifier="com.git.pkg" postinstall-action="none" version="2.19.0" format-version="2" generator-version="InstallCmds-667 (17F77)" install-location="/usr/local" auth="root">
+    <payload numberOfFiles="722" installKBytes="67208"/>
+    <bundle path="./git/share/git-gui/lib/Git Gui.app" id="cz.or.repo.git-gui" CFBundleShortVersionString="0.21.GITGUI-dirty" CFBundleVersion="0.21.GITGUI-dirty"/>
+    <bundle-version>
+        <bundle id="cz.or.repo.git-gui"/>
+    </bundle-version>
+    <upgrade-bundle>
+        <bundle id="cz.or.repo.git-gui"/>
+    </upgrade-bundle>
+    <update-bundle/>
+    <atomic-update-bundle/>
+    <strict-identifier>
+        <bundle id="cz.or.repo.git-gui"/>
+    </strict-identifier>
+    <relocate/>
+</pkg-info>
